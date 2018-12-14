@@ -11,12 +11,11 @@ module.exports = {
   },
   abc: {
 
-      baseUrl: process.env.NODE_ENV === 'production3'
-
+      // baseUrl: process.env.NODE_ENV === 'production3'
 
   },
 
-------------------------------
+----
 
 
   pluginOptions: {
