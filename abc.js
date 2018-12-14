@@ -9,6 +9,14 @@ module.exports = {
       }
     }
   },
+  abc: {
+      baseUrl: process.env.NODE_ENV === 'production'
+
+  },
+
+------------------------------
+
+
   pluginOptions: {
     'cube-ui': {
       postCompile: true,
