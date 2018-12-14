@@ -18,14 +18,5 @@ module.exports = {
 ----
 
 
-  pluginOptions: {
-    'cube-ui': {
-      postCompile: true,
-      theme: true
-    }
-  },
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? './'
-    : '/',
-  productionSourceMap: false
+
 }
