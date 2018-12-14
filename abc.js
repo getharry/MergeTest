@@ -10,7 +10,7 @@ module.exports = {
     }
   },
   abc: {
-      baseUrl: process.env.NODE_ENV === 'production'
+      baseUrl: process.env.NODE_ENV === 'production2'
 
   },
 
